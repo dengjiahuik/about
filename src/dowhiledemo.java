@@ -22,7 +22,7 @@ while(Boolean表达式);*/
             System.out.println(num);
             num++;
         }
-        while (num <=100);
+        while (num <= 100);
         //计算100以内的正整数和
         int numa = 1;
         int s = 0;
@@ -30,7 +30,7 @@ while(Boolean表达式);*/
             s = numa + s; //s +=numa
             numa++;
         }
-        while (numa <=100);
-        System.out.println(s);
+        while (numa <= 100);
+        System.out.println(s);//do里面是循环体语句 如果将system放在do里面  将打印很多次
     }
 }
